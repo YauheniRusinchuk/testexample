@@ -1,0 +1,211 @@
+{
+  "loading": { "title": "Processing request", "subTitle": "Wait, please" },
+  "tabTitle": {
+    "offer": "Enter card details",
+    "bill": {
+      "pay": "Payment result",
+      "transfer": "Transfer result",
+      "registration": "Registration result"
+    },
+    "processing": "Request processing",
+    "default": "Payment processing"
+  },
+  "ui": {
+    "input": {
+      "pan": { "label": "Card number" },
+      "expiry": { "label": "MM / YY" },
+      "expiryMonth": { "label": "MM", "mobileLabel": "Expiry date" },
+      "expiryYear": { "label": "YY" },
+      "cvc": { "label": "CVV" },
+      "saveCard": { "label": "remember card" }
+    },
+    "btn": {
+      "pay": "Pay Now",
+      "continue": "Continue",
+      "printReceipt": "Print",
+      "goToMerchant": "Return to merchant",
+      "cancel": "Cancel",
+      "transferToCard": "Transfer",
+      "transferToAccount": "Transfer",
+      "checkResult": "Check Result",
+      "accept": "Accept",
+      "reject": "Reject"
+    }
+  },
+  "pages": {
+    "main": {
+      "payTitle": {
+        "pay": "Pay with card",
+        "continue": "Enter card details",
+        "transferToCard": "Transfer to the card",
+        "transferToAccount": "Transfer to account"
+      },
+      "sbpTitle": "Pay by other method",
+      "commission": {
+        "amount": "Amount:",
+        "commission": "Commission:",
+        "fullAmount": "Amount with commission:"
+      },
+      "cvcDescription": "3 digits from revers side of the card",
+      "saveCardInfo": "After entering the card details, will be performed a verification authorization for the amount of {0}. This amount will not be charged to your card.",
+      "gazpromPay": "Pay with any card via Gazprom Pay",
+      "helpTooltip": {
+        "title": "What is GazpromPay?",
+        "description": "Using the secure payment service Gazprom Pay, you can pay for purchases on the websites of partner stores without entering bank card details. To pay, log in to the Gazprom Pay service and add a card of any bank."
+      },
+      "mirPay": {
+        "mirPayTopText": "If the mobile app",
+        "mirPayTextStart": "missing from the device",
+        "mirPayTextEnd": " to complete the payment",
+        "mirPayUrl": "install it",
+        "mirPayBtn": "Return to merchant"
+      }
+    },
+    "sbp": {
+      "sbpSubtitle": "Scan and pay",
+      "pressQr": "Click on the QR code",
+      "sbpInfoDesk": "Scan the QR code via your bank's mobile application. Then click the \"Check Result\" button to get the payment result.",
+      "sbpInfoMobile": "Scan the QR code via your bank's mobile application or click on it. Then click the \"Check Result\" button to get the payment result."
+    },
+    "offer": {
+      "titleTreeDSInfo": "Follow these steps to confirm",
+      "titleSavedCard": {
+        "pay": "Pay with a previously saved card",
+        "transferToCard": "Transfer to a previously saved card",
+        "transferToAccount": "Transfer from a previously saved card"
+      }
+    },
+    "result": {
+      "status": {
+        "success": "Payment complete successfully",
+        "transferSuccess": "Transfer complete successfully",
+        "registration": "Registration completed successfully",
+        "failedRegistration": "Registration failed",
+        "interim_success": "Payment complete successfully",
+        "suspended": "Operation not completed",
+        "failed": "Payment failed",
+        "transferFailed": "Transfer failed",
+        "unknown": "Operation not completed"
+      },
+      "description": {
+        "success": "",
+        "suspended": "Specify the operation result at Customer Support Service.",
+        "interim_success": ""
+      },
+      "offline": "<b class=\"red\">Attention!</b> Unable to register payment in merchant during on-line transaction. Your payment will be registered later in off-line mode.",
+      "table": {
+        "merchant": "Merchant",
+        "description": "Description",
+        "pan": "Card number",
+        "brand": "Card type",
+        "trxId": "Transaction ID",
+        "externalTrxId": {
+          "sbp": "Transaction ID in SBP Pay",
+          "gazprom_pay": "Payment ID in Gazprom Pay",
+          "card": "Additional ID"
+        },
+        "date": "Date/Time",
+        "approvalCode": "Authorization code",
+        "rrn": "RRN",
+        "amount": "Amount",
+        "commission": "Commission",
+        "fullAmount": "Amount with commission"
+      },
+      "readMore": "Read more"
+    },
+    "error": {
+      "API_ERR": {
+        "title": "Payment error",
+        "description": "The server encountered unforeseen errors while transaction processing. Please, try to pay later.",
+        "btn": "Return to merchant"
+      }
+    },
+    "merchantUrlPrefix": "payment in "
+  },
+  "footer": {
+    "info": "Data transfer over the Internet is secured by TLS protocol. {0} Data are protected according to international standard PCI DSS.",
+    "bank": "© 1990-{0}, GPB Bank (JSC). General license of the Bank of Russia No. 354."
+  },
+  "receiptArea": {
+    "titleText": "Additional service. Provided by GPB Bank (JSC) free of charge",
+    "phoneTitle": "Mobile phone:",
+    "emailTitle": "Send check to e-mail:",
+    "emailFormTitle": "Send check to e-mail:",
+    "successSendEmail": "Check successfully sent to e-mail",
+    "agree_get_receipt": "Get a payment receipt",
+    "agree_data_processing": "I give my consent to {0}",
+    "agree_data_processing_word": "processing of personal data",
+    "agree_advertising": "I agree to receive information about special offers on products and services from Bank GPB (JSC)",
+    "btn_send_receipt": "Get receipt",
+    "btn_send_email_receipt": "Send",
+    "btn_view_receipt": "View",
+    "btn_save_receipt": "Save pdf",
+    "finish_title": "Receipt sent to your e-mail",
+    "finish_description": "You can also save the receipt in pdf or send it to print.",
+    "agree_modal_content": {
+      "title": "Consent to data processing",
+      "description": {
+        "personal_data_list_title": "I, a citizen of the Russian Federation, acting by my will and in my interest, give my consent to Bank GPB (JSC): location: 117420, Moscow, st. Nametkina, house 16, building 1, for the processing of my personal data in order to analyze my needs for obtaining banking products / financial services and send me personal offers on products and services by phone and e-mail, namely:",
+        "personal_data_list": [
+          "— verification and processing, including collection, recording, systematization, accumulation, storage, clarification (updating, changing), extraction, use, transfer (provision, access), blocking, deletion, destruction of my personal data (hereinafter referred to as the processing of personal data) reported by me when applying for receipt of the Receipt, with the use of automation tools and/or without the use of such tools;",
+          "— transfer (provision, access) of the phone number specified in the application for receipt of the Receipt (hereinafter referred to as the contact phone number): to telecom operators: Beeline (PJSC VimpelCom, location: 127083, Moscow, 10 Marta st., building 8) .14), MegaFon (PJSC MegaFon, location: 127006, Moscow, Oruzheyny per., 41), (hereinafter referred to as the Telecom Operator);",
+          "— receiving from the Telecommunications Operators: information about me as a subscriber of the Telecommunications Operators, including (but not limited to) the following information: subscriber number, e-mail address, information about the communication services provided by the Telecommunications Operators and payments for these services under the contracts concluded by me with the Telecommunications Operators for provision of communication services (hereinafter referred to as Subscriber Information);",
+          "— transfer of a contact phone number and information about the subscriber received from the Telecom Operators: To the companies: Mail.ru (LLC Mail.Ru, location: 125167, Leningradsky Prospekt, 39, building 79), JSC \"MBKI\" (location: 127006, Moscow, st. location: 115280, Moscow, Leninskaya Sloboda st., 19), ZAO OKB (location: 127006, Moscow, 1st Tverskaya-Yamskaya st., 2, building 1) JSC Renaissance Insurance Group (location: 115114, Derbenevskaya embankment, 7, building 22, floor/room 4/XIII);",
+          "— obtaining from the Companies information about me as a Client of the Companies at the disposal of the Companies, upon their request by the Bank (Client Information);",
+          "— collection, recording, systematization, accumulation, storage, clarification (updating, changing), extraction, use, blocking, deletion, destruction of my personal data received by the Bank from Telecom Operators and Companies"
+        ],
+        "agreements_text": [
+          "The moment of granting this consent is the moment of putting a mark in the checkbox (putting a check mark) opposite the phrase “I agree to the processing of personal data”.",
+          "Consent is valid for 5 years from the date of its granting. I am hereby informed about the possibility of revoking the Consent by submitting an application to the Bank's office in a simple written form, and that after receiving my application for revoking the Consent, the Bank has the right to continue processing my personal data only on the grounds provided for by the current legislation of the Russian Federation.",
+          "I am aware that the personal offer sent to me is not an offer of the Bank to conclude an agreement with me to provide me with a banking product/financial service. The Bank makes the final decision on concluding an agreement with me on its own and after I submit a set of documents in accordance with the procedure established by the Bank.",
+          "By providing this consent, I confirm that I am responsible for the accuracy and validity of the personal data provided by me, and also confirm that I understand the meaning of all the terms listed in this consent and their compliance with the Federal Law of July 27, 2006 No. 152-ФЗ “On Personal Data » and the Federal Law of March 13, 2006 N 38-FZ \"On Advertising\" and my right to withdraw this consent."
+        ]
+      }
+    }
+  },
+  "errors": {
+    "api": {
+      "BAD_REQUEST": "Failed to get a response from the server. Please try again later",
+      "LIMIT_EXCEEDED": "To conduct an operation one of the limits of the card is exceeded. Contact shop Customer Support Service.",
+      "FM_REJECTED": "Use other payment card or contact shop Customer Support Service.",
+      "PREAUTHORIZATION_OK": "Amounts are successfully blocked.",
+      "INSUFFICIENT_FUNDS": "The amount on the card is not sufficient.",
+      "DECLINED_BY_ACQUIRER": "The operation is declined by the payment recipient bank.",
+      "DECLINED_BY_ISSUER": "The operation is declined by the card issuer.",
+      "CARD_FAULT": "The operation on your card is declined by the bank.",
+      "AUTHORIZATION_FAILED": "Authorization failed.",
+      "CARD_NOT_SUPPORTED": "Your type of card is not supported by payment service.",
+      "CARD_DATA_INVALID": "Check correctness of the card data completion.",
+      "CARD_NOT_FOUND": "",
+      "AUTHENTICATION_TIMEOUT": "Operation confirmation time has expired (no 3DS-password).",
+      "AUTHENTICATION_FAILED": "Error in 3DS-authentication.",
+      "AUTHENTICATION_DECLINED": "",
+      "OFFER_TIMEOUT": "Customer response waiting time has expired.",
+      "OFFER_DECLINED": "Payment is cancelled upon the customer’s initiative.",
+      "DECLINED_BY_EXTERNAL_SYSTEM": "Operation rejected by the external system.",
+      "CPA_REJECTED": "Contact shop Customer Support Service",
+      "UNKNOWN": "Specify the operation result at Customer Support Service.",
+      "CPA_FAILED": "Please try again later.",
+      "CARD_BLOCKED": "",
+      "THREE_DS_PREPARATION_TIMEOUT": "",
+      "BANK_SYSTEM_ERROR": "",
+      "SYSTEM_ERROR": "Contact shop Customer Support Service",
+      "SRC_CARD_NOT_SUPPORTED": "The card is not supported",
+      "CARD_EXPIRED": "",
+      "COMMUNICATION_ERROR": ""
+    },
+    "app": {
+      "validation": {
+        "required": "Please, fill missed field",
+        "pan": "Check card number",
+        "expiryMonth": "Month between 01 and 12",
+        "expiryMonthCard": "Invalid month",
+        "expiryYear": "Invalid year",
+        "length": "Enter {number} digits",
+        "latin": "Only Latin characters are supported",
+        "phoneNumber": "Check phone number",
+        "email": "Check e-mail"
+      }
+    }
+  }
+}
